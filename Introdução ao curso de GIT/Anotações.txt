@@ -1,0 +1,24 @@
+ ## Link para download do GIT: https://git-scm.com/downloads
+
+ - O Git Bash é um terminal extendido para otimizar o uso do GIT
+ - A cada alteração em um commit, usa-se: git commit -m "comentário sobre o que foi alterado"
+ - Após o git commit, usa-se o: git push origin main; A fim de salvar o commit e manda-lo para a nuvem, aparecendo no site do git/hub
+ - Comando para retroceder: cd ..
+ - Comando para limpar a tela: cls ou clear
+ - Comando del deleta o conteúdo de uma pasta
+ - Comando rmdir name /S /Q deleta toda a pasta
+ - Chave SSH é uma maneira encriptada de estabelecer uma conexão segura entre 2 maquinas
+ - GIT Init inicializa um repositório dentro do diretório
+ - git add * salva todas as alterações feitas e manda para o staged
+ - Após adicionar as alterações para o estado de staged, basta adicionar o commit com: git commit -m "comentário sobre o commit"
+ - os 2 estágios de um arquivo são: Tracked --> unmodified; modified(modificados); staged(onde ficam os arquivos que se preparam) /// Untracked(não se sabe da existência)
+ - Como sabemos que modificamos o arquivo? Git compara os SHA1
+
+# Passos para criar/clonar um repositório no GIT:
+ - Criar no site do GIT seu repositório;
+ - Copiar o link HTML dele;
+ - No GIT Bash, usar --> git clone link
+ - Para trabalhar dentro do repositório, basta usar o comando: cd nome-do-repositorio
+ - Se criar ou modificar algum arquivo, o git status acusará mudanças, portanto, o comando: git add . ; adicionará a mudança.
+ - Para de fato coloca-lo no site, usa-se o comando: git commit -m "comentário"
+ - Após, usa-se: git push origin main
